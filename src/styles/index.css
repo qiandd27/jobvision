@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1976D2;
+  --color-success: #2E7D32;
+  --color-warning: #ED6C02;
+  --color-danger: #D32F2F;
+  --color-risk-green: #4CAF50;
+  --color-risk-yellow: #FF9800;
+  --color-risk-red: #F44336;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
